@@ -1,0 +1,134 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.2 102964 11976 ?        Ss   19:14   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    19:14   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   19:14   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   19:14   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   19:14   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   19:14   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   19:14   0:00 [kworker/0:0H-kblockd]
+root          10  0.0  0.0      0     0 ?        I<   19:14   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    19:14   0:00 [rcu_tasks_rude_]
+root          12  0.0  0.0      0     0 ?        S    19:14   0:00 [rcu_tasks_trace]
+root          13  0.0  0.0      0     0 ?        S    19:14   0:00 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    19:14   0:00 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    19:14   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    19:14   0:00 [idle_inject/0]
+root          18  0.0  0.0      0     0 ?        S    19:14   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    19:14   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    19:14   0:00 [idle_inject/1]
+root          21  0.0  0.0      0     0 ?        S    19:14   0:00 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    19:14   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I    19:14   0:00 [kworker/1:0-mm_percpu_wq]
+root          24  0.0  0.0      0     0 ?        I<   19:14   0:00 [kworker/1:0H-events_highpri]
+root          25  0.0  0.0      0     0 ?        S    19:14   0:00 [kdevtmpfs]
+root          26  0.0  0.0      0     0 ?        I<   19:14   0:00 [inet_frag_wq]
+root          27  0.0  0.0      0     0 ?        S    19:14   0:00 [kauditd]
+root          29  0.0  0.0      0     0 ?        S    19:14   0:00 [khungtaskd]
+root          30  0.0  0.0      0     0 ?        S    19:14   0:00 [oom_reaper]
+root          31  0.0  0.0      0     0 ?        I<   19:14   0:00 [writeback]
+root          32  0.0  0.0      0     0 ?        S    19:14   0:00 [kcompactd0]
+root          33  0.0  0.0      0     0 ?        SN   19:14   0:00 [ksmd]
+root          34  0.0  0.0      0     0 ?        SN   19:14   0:00 [khugepaged]
+root          80  0.0  0.0      0     0 ?        I<   19:14   0:00 [kintegrityd]
+root          81  0.0  0.0      0     0 ?        I<   19:14   0:00 [kblockd]
+root          82  0.0  0.0      0     0 ?        I<   19:14   0:00 [blkcg_punt_bio]
+root          83  0.0  0.0      0     0 ?        I<   19:14   0:00 [tpm_dev_wq]
+root          84  0.0  0.0      0     0 ?        I<   19:14   0:00 [ata_sff]
+root          85  0.0  0.0      0     0 ?        I<   19:14   0:00 [md]
+root          86  0.0  0.0      0     0 ?        I<   19:14   0:00 [edac-poller]
+root          87  0.0  0.0      0     0 ?        I<   19:14   0:00 [devfreq_wq]
+root          88  0.0  0.0      0     0 ?        S    19:14   0:00 [watchdogd]
+root          90  0.0  0.0      0     0 ?        I<   19:14   0:00 [kworker/1:1H-kblockd]
+root          92  0.0  0.0      0     0 ?        S    19:14   0:00 [kswapd0]
+root          93  0.0  0.0      0     0 ?        S    19:14   0:00 [ecryptfs-kthrea]
+root          95  0.0  0.0      0     0 ?        I<   19:14   0:00 [kthrotld]
+root          96  0.0  0.0      0     0 ?        I<   19:14   0:00 [acpi_thermal_pm]
+root          97  0.0  0.0      0     0 ?        S    19:14   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   19:14   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        I<   19:14   0:00 [nvme-wq]
+root         100  0.0  0.0      0     0 ?        I<   19:14   0:00 [nvme-reset-wq]
+root         101  0.0  0.0      0     0 ?        I<   19:14   0:00 [nvme-delete-wq]
+root         102  0.0  0.0      0     0 ?        I<   19:14   0:00 [vfio-irqfd-clea]
+root         104  0.0  0.0      0     0 ?        I<   19:14   0:00 [kworker/0:1H-kblockd]
+root         105  0.0  0.0      0     0 ?        I<   19:14   0:00 [mld]
+root         106  0.0  0.0      0     0 ?        I<   19:14   0:00 [ipv6_addrconf]
+root         116  0.0  0.0      0     0 ?        I<   19:14   0:00 [kstrp]
+root         119  0.0  0.0      0     0 ?        I<   19:14   0:00 [zswap-shrink]
+root         120  0.0  0.0      0     0 ?        I<   19:14   0:00 [kworker/u5:0]
+root         127  0.0  0.0      0     0 ?        I<   19:14   0:00 [charger_manager]
+root         128  0.0  0.0      0     0 ?        S    19:14   0:00 [jbd2/sda1-8]
+root         129  0.0  0.0      0     0 ?        I<   19:14   0:00 [ext4-rsv-conver]
+root         131  0.0  0.0      0     0 ?        S    19:14   0:00 [hwrng]
+root         169  0.0  1.1  89412 45188 ?        S<s  19:14   0:00 /lib/systemd/systemd-journald
+root         211  0.0  0.1  22104  7500 ?        Ss   19:14   0:00 /lib/systemd/systemd-udevd
+root         244  0.0  0.0      0     0 ?        I<   19:14   0:00 [cryptd]
+root         342  0.0  0.0      0     0 ?        I<   19:14   0:00 [kaluad]
+root         343  0.0  0.0      0     0 ?        I<   19:14   0:00 [kmpath_rdacd]
+root         344  0.0  0.0      0     0 ?        I<   19:14   0:00 [kmpathd]
+root         345  0.0  0.0      0     0 ?        I<   19:14   0:00 [kmpath_handlerd]
+root         346  0.0  0.4 280144 17952 ?        SLsl 19:14   0:00 /sbin/multipathd -d -s
+systemd+     470  0.0  0.1  27416  7536 ?        Ss   19:14   0:00 /lib/systemd/systemd-networkd
+systemd+     474  0.0  0.3  24828 12380 ?        Ss   19:14   0:00 /lib/systemd/systemd-resolved
+root         508  0.0  0.1 237436  7412 ?        Ssl  19:14   0:00 /usr/lib/accountsservice/accounts-daemon
+avahi        509  0.0  0.0   8536  3596 ?        Ss   19:14   0:00 avahi-daemon: running [csce313.local]
+root         512  0.0  0.2  25900  8412 ?        Ss   19:14   0:00 /usr/sbin/cupsd -l
+message+     513  0.0  0.1   8008  4968 ?        Ss   19:14   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         514  0.0  0.4 260852 18624 ?        Ssl  19:14   0:00 /usr/sbin/NetworkManager --no-daemon
+root         523  0.0  0.5  37328 20536 ?        Ss   19:14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         525  0.0  0.2 235104  9292 ?        Ssl  19:14   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       532  0.0  0.1 224524  5784 ?        Ssl  19:14   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         539  0.0  0.6 1319660 26980 ?       Ssl  19:14   0:00 /usr/lib/snapd/snapd
+root         540  0.0  0.1 234748  6044 ?        Ssl  19:14   0:00 /usr/libexec/switcheroo-control
+root         542  0.0  0.3 393148 12204 ?        Ssl  19:14   0:00 /usr/lib/udisks2/udisksd
+root         550  0.0  0.1  13700  4988 ?        Ss   19:14   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        568  0.0  0.0   8348   316 ?        S    19:14   0:00 avahi-daemon: chroot helper
+root         571  0.0  0.2 315112 11548 ?        Ssl  19:14   0:00 /usr/sbin/ModemManager
+root         702  0.0  0.3 176368 12484 ?        Ssl  19:14   0:00 /usr/sbin/cups-browsed
+root         718  0.0  0.5 115744 23040 ?        Ssl  19:14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         720  0.0  1.1 1874428 45488 ?       Ssl  19:14   0:02 /usr/bin/containerd
+_chrony      750  0.0  0.0  13024  2588 ?        S    19:14   0:00 /usr/sbin/chronyd -F -1
+_chrony      751  0.0  0.0   4696   184 ?        S    19:14   0:00 /usr/sbin/chronyd -F -1
+root         779  0.0  0.5 1981668 21076 ?       Ssl  19:14   0:00 /usr/bin/google_guest_agent
+root         780  0.0  0.5 1764940 22828 ?       Ssl  19:14   0:00 /usr/bin/google_osconfig_agent
+root         782  0.0  0.0   5700  3340 ?        Ss   19:14   0:00 /usr/sbin/inetd
+daemon       798  0.0  0.0   3804  2240 ?        Ss   19:15   0:00 /usr/sbin/atd -f
+root         824  0.0  0.0   7360  2200 ttyS0    Ss+  19:15   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         826  0.0  0.0   5836  1868 tty1     Ss+  19:15   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         976  0.0  1.8 1903292 72456 ?       Ssl  19:15   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1077  0.0  0.1  12196  7452 ?        Ss   19:15   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1116  0.0  0.1  17368  7604 ?        Ss   19:15   0:00 /lib/systemd/systemd-logind
+root        1145  0.0  0.0   8548  2924 ?        Ss   19:15   0:00 /usr/sbin/cron -f
+root        1153  0.0  0.0   2496   580 ?        S    19:15   0:00 bpfilter_umh
+root        1338  0.0  0.2  13868  8820 ?        Ss   19:15   0:00 sshd: natha [priv]
+natha       1341  0.0  0.2  19196  9920 ?        Ss   19:15   0:00 /lib/systemd/systemd --user
+natha       1342  0.0  0.0 104368  3776 ?        S    19:15   0:00 (sd-pam)
+natha       1347  0.0  0.3 279504 14168 ?        Ssl  19:15   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rtkit       1365  0.0  0.0 152936  2912 ?        SNsl 19:15   0:00 /usr/libexec/rtkit-daemon
+natha       1371  0.0  0.1   7116  4092 ?        Ss   19:15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+natha       1448  0.1  0.1  14008  5964 ?        S    19:15   0:03 sshd: natha@notty
+natha       1449  0.0  0.0   2616  1776 ?        Ss   19:15   0:00 sh
+natha       1467  0.2  0.4  32296 16040 ?        Sl   19:15   0:05 /home/natha/.vscode-server/code-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40 command-shell --cli-data-dir /home/natha/.vscode-server/cli --parent-process-id 1449 --on-host=127.0.0.1 --on-port
+natha       1514  0.0  0.0   2616   532 ?        S    19:15   0:00 sh /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-5630cc8d-6627-41fd-8920-d1625174c0c8
+natha       1518  0.3  2.4 1328572 97160 ?       Sl   19:15   0:07 /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-5630cc8d-6627-41fd-8920-d1625174c0c8
+natha       1546  0.2  1.5 1136916 63896 ?       Sl   19:15   0:04 /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/bootstrap-fork --type=ptyHost --logsPath /home/natha/.vscode-server/data/logs/20240930T191512
+natha       1559  0.0  1.2 1240556 50396 ?       Sl   19:15   0:01 /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/bootstrap-fork --type=fileWatcher
+natha       1574  1.6  6.7 22466168 270680 ?     Sl   19:15   0:36 /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node --dns-result-order=ipv4first /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+natha       1625  1.7  0.9  85668 39400 ?        Sl   19:15   0:38 /home/natha/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-x64/bin/cpptools
+natha       1648  0.0  1.1 992604 45084 ?        Sl   19:15   0:00 /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=1574
+natha       1758  0.0  0.1  10164  5216 pts/0    Ss   19:18   0:00 /bin/bash --init-file /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+natha       1875  1.1  5.0 4275332 202440 ?      Sl   19:19   0:21 /home/natha/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-x64/bin/cpptools-srv 1625 {755810D8-7D77-470C-BDE2-309F91C8BA7A}
+root        2125  0.0  0.0      0     0 ?        I    19:20   0:00 [kworker/u4:0-ext4-rsv-conversion]
+root        3869  0.0  0.0      0     0 ?        I    19:29   0:00 [kworker/0:1-events]
+root        4004  0.0  0.0      0     0 ?        I    19:34   0:00 [kworker/0:0-events]
+root        4505  0.0  0.0      0     0 ?        I    19:39   0:00 [kworker/u4:1-events_unbound]
+root        4603  0.0  0.0      0     0 ?        I    19:44   0:00 [kworker/1:2-events]
+natha       4611  0.1  1.7 4260912 68320 ?       Sl   19:45   0:00 /home/natha/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-x64/bin/cpptools-srv 1625 {C7CBB1AB-BBA7-4262-BC38-ADC38BF4A7D3}
+root        4658  0.0  0.0      0     0 ?        I    19:47   0:00 [kworker/u4:2-writeback]
+natha       4746  0.0  0.0   7236   516 ?        S    19:51   0:00 sleep 180
+natha       4765  0.0  0.0   7604  2188 pts/0    S+   19:51   0:00 make test
+natha       4801  0.1  0.0   8888  3856 pts/0    S+   19:51   0:00 bash ./pa2-tests.sh
+natha       4925  0.0  0.0   2616   600 ?        S    19:51   0:00 /bin/sh -c "/home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/base/node/cpuUsage.sh" 1758 4765 4801 4917 4919 4920
+natha       4926  0.0  0.0   8624  3388 ?        S    19:51   0:00 /bin/bash /home/natha/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/base/node/cpuUsage.sh 1758 4765 4801 4917 4919 4920
+natha       4934  0.0  0.0   7236   516 ?        S    19:51   0:00 sleep 1
+natha       4944  0.0  0.1 21474913120 7488 pts/0 S+  19:51   0:00 ./shell
+natha       4945  0.0  0.0  10620  3272 pts/0    R+   19:51   0:00 ps aux
